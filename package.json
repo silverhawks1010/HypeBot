@@ -5,6 +5,9 @@
 	"main": "index.js",
 	"author": "Ayfri",
 	"license": "ISC",
+	"engines": {
+		"node": "18.x"
+	},
 	"dependencies": {
 		"@discordjs/opus": "^0.3.2",
 		"advanced-command-handler": "^1.2.1",
