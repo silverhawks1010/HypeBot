@@ -1,0 +1,61 @@
+{
+	"name": "advanced-command-handler",
+	"version": "1.2.1",
+	"description": "A package to help you create a bot with only 1 main file and directories for your events and commands with some helpers classes and functions.",
+	"main": "index.js",
+	"author": "Ayfri",
+	"license": "ISC",
+	"dependencies": {
+		"@discordjs/opus": "^0.3.2",
+		"advanced-command-handler": "^1.2.1",
+		"discord.js": "^12.4.0",
+		"ffmpeg-static": "^4.2.3",
+		"gamedig": "^3.0.5",
+		"luxon": "^1.25.0",
+		"lyrics-finder": "^21.0.5",
+		"moment": "^2.29.1",
+		"node-weeb": "^1.0.4",
+		"simple-youtube-api": "^5.1.1",
+		"soundcloud-downloader": "^0.1.6",
+		"string-progressbar": "^1.0.1",
+		"striptags": "^3.1.1",
+		"winston": "^3.3.3",
+		"ytdl-core": "^3.4.2",
+		"ytdl-core-discord": "^1.2.1"
+	},
+	"scripts": {
+		"prettier": "prettier ./ --write"
+	},
+	"keywords": [
+		"discord",
+		"command-handler",
+		"discord-bot",
+		"discordjs"
+	],
+	"homepage": "https://github.com/Ayfri/Advanced-Command-Handler",
+	"maintainers": [
+		"ayfri"
+	],
+	"repository": {
+		"type": "github",
+		"url": "git://github.com/Ayfri/Advanced-Command-Handler/tree/package.git"
+	},
+	"readme": "https://github.com/Ayfri/Advanced-Command-Handler/blob/package/README.md",
+	"bugs": {
+		"url": "https://github.com/Ayfri/Advanced-Command-Handler/issues"
+	},
+	"devDependencies": {
+		"prettier": "^2.1.2"
+	},
+	"prettier": {
+		"arrowParens": "avoid",
+		"bracketSpacing": false,
+		"endOfLine": "lf",
+		"printWidth": 200,
+		"semi": true,
+		"singleQuote": true,
+		"tabWidth": 4,
+		"trailingComma": "es5",
+		"useTabs": true
+	}
+}
