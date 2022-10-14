@@ -9,7 +9,7 @@ CommandHandler.create({
 });
 
 CommandHandler.launch({
-    token: "MTAyMDQ4MTMzODM1NDE4MDEzNg.GZJZfB.Ngd8Wa3MOvHmDO9gwePJNvHF2DCc1AD-f0EggI",
+    token: "",
     // Optionnal :
     clientOptions: {
         // Client Options, see Discord.js#ClientOptions
